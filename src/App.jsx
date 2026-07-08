@@ -1,10 +1,45 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <h1 className="text-5xl font-bold text-blue-600">
-        My Portfolio
-      </h1>
-    </div>
+    <>
+      <Navbar />
+
+      <div
+        id="home"
+        className="h-screen flex justify-center items-center text-5xl font-bold"
+      >
+        Home Section
+      </div>
+
+      <div
+        id="about"
+        className="h-screen flex justify-center items-center text-5xl font-bold bg-gray-100"
+      >
+        About Section
+      </div>
+
+      <div
+        id="skills"
+        className="h-screen flex justify-center items-center text-5xl font-bold"
+      >
+        Skills Section
+      </div>
+
+      <div
+        id="projects"
+        className="h-screen flex justify-center items-center text-5xl font-bold bg-gray-100"
+      >
+        Projects Section
+      </div>
+
+      <div
+        id="contact"
+        className="h-screen flex justify-center items-center text-5xl font-bold"
+      >
+        Contact Section
+      </div>
+    </>
   );
 }
 
