@@ -12,19 +12,28 @@ import ScrollTop from "./components/ScrollTop";
 
 function App() {
   return (
-    <>
+    <div className="bg-white text-gray-900 overflow-x-hidden">
+      {/* Navigation */}
       <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Education />
-      <Experience />
-      <Certificates />
-      <Contact />
+
+      {/* Main Content */}
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Education />
+        <Experience />
+        <Certificates />
+        <Contact />
+      </main>
+
+      {/* Footer */}
       <Footer />
+
+      {/* Scroll To Top */}
       <ScrollTop />
-    </>
+    </div>
   );
 }
 

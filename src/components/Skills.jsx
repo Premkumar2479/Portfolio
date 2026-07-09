@@ -19,93 +19,87 @@ import {
   SiJavascript,
   SiTailwindcss,
   SiPostman,
-  SiVisualstudiocode,
 } from "react-icons/si";
 
 const skills = [
   {
     title: "Java",
-    icon: <FaJava size={45} className="text-orange-600" />,
+    icon: <FaJava className="text-orange-600 text-5xl" />,
     level: "Advanced",
   },
   {
     title: "Python",
-    icon: <FaPython size={45} className="text-blue-500" />,
+    icon: <FaPython className="text-blue-500 text-5xl" />,
     level: "Intermediate",
   },
   {
     title: "JavaScript",
-    icon: <SiJavascript size={45} className="text-yellow-400" />,
+    icon: <SiJavascript className="text-yellow-400 text-5xl" />,
     level: "Intermediate",
   },
   {
     title: "React",
-    icon: <FaReact size={45} className="text-cyan-500" />,
+    icon: <FaReact className="text-cyan-500 text-5xl" />,
     level: "Intermediate",
   },
   {
     title: "Spring Boot",
-    icon: <SiSpringboot size={45} className="text-green-600" />,
+    icon: <SiSpringboot className="text-green-600 text-5xl" />,
     level: "Learning",
   },
   {
     title: "Flutter",
-    icon: <SiFlutter size={45} className="text-sky-500" />,
+    icon: <SiFlutter className="text-sky-500 text-5xl" />,
     level: "Learning",
   },
   {
     title: "HTML5",
-    icon: <FaHtml5 size={45} className="text-orange-500" />,
+    icon: <FaHtml5 className="text-orange-500 text-5xl" />,
     level: "Advanced",
   },
   {
     title: "CSS3",
-    icon: <FaCss3Alt size={45} className="text-blue-600" />,
+    icon: <FaCss3Alt className="text-blue-600 text-5xl" />,
     level: "Advanced",
   },
   {
     title: "Tailwind CSS",
-    icon: <SiTailwindcss size={45} className="text-cyan-400" />,
+    icon: <SiTailwindcss className="text-cyan-400 text-5xl" />,
     level: "Intermediate",
   },
   {
     title: "Bootstrap",
-    icon: <FaBootstrap size={45} className="text-purple-600" />,
+    icon: <FaBootstrap className="text-purple-600 text-5xl" />,
     level: "Advanced",
   },
   {
     title: "Node.js",
-    icon: <FaNodeJs size={45} className="text-green-600" />,
+    icon: <FaNodeJs className="text-green-600 text-5xl" />,
     level: "Intermediate",
   },
   {
     title: "MySQL",
-    icon: <SiMysql size={45} className="text-blue-500" />,
+    icon: <SiMysql className="text-blue-500 text-5xl" />,
     level: "Advanced",
   },
   {
     title: "MongoDB",
-    icon: <SiMongodb size={45} className="text-green-600" />,
+    icon: <SiMongodb className="text-green-600 text-5xl" />,
     level: "Intermediate",
   },
   {
     title: "Git",
-    icon: <FaGitAlt size={45} className="text-red-500" />,
+    icon: <FaGitAlt className="text-red-500 text-5xl" />,
     level: "Intermediate",
   },
   {
     title: "GitHub",
-    icon: <FaGithub size={45} />,
+    icon: <FaGithub className="text-gray-900 text-5xl" />,
     level: "Intermediate",
   },
   {
-    title: "VS Code",
-    icon: <SiVisualstudiocode size={45} className="text-blue-500" />,
-    level: "Daily Use",
-  },
-  {
     title: "Postman",
-    icon: <SiPostman size={45} className="text-orange-500" />,
+    icon: <SiPostman className="text-orange-500 text-5xl" />,
     level: "Intermediate",
   },
 ];
@@ -114,14 +108,14 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="py-24 bg-gradient-to-br from-white to-slate-100"
+      className="py-24 bg-gradient-to-br from-white via-slate-50 to-slate-100"
     >
       <div className="max-w-7xl mx-auto px-6">
 
         <motion.div
-          initial={{ y: -60, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.7 }}
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
           viewport={{ once: true }}
           className="text-center mb-16"
         >
@@ -129,53 +123,46 @@ function Skills() {
             My <span className="text-blue-600">Skills</span>
           </h2>
 
-          <p className="mt-5 text-gray-600">
-            Technologies I use to build modern applications.
+          <p className="mt-4 text-gray-600 text-lg">
+            Technologies and tools I use to build modern web and mobile applications.
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
 
           {skills.map((skill, index) => (
-
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 80 }}
+              initial={{ opacity: 0, y: 60 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{
-                delay: index * 0.08,
-                duration: 0.6,
+                duration: 0.5,
+                delay: index * 0.05,
               }}
               whileHover={{
                 scale: 1.05,
-                y: -10,
               }}
               viewport={{ once: true }}
-              className="bg-white rounded-2xl shadow-xl p-8 text-center"
+              className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 text-center"
             >
-
-              <div className="flex justify-center">
+              <div className="flex justify-center mb-5">
                 {skill.icon}
               </div>
 
-              <h3 className="text-2xl font-bold mt-6">
+              <h3 className="text-xl font-bold">
                 {skill.title}
               </h3>
 
-              <p className="text-gray-500 mt-2">
+              <p className="mt-2 text-gray-500">
                 {skill.level}
               </p>
-
             </motion.div>
-
           ))}
 
         </div>
-
       </div>
     </section>
   );
 }
 
 export default Skills;
-
