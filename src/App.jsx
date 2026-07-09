@@ -1,44 +1,39 @@
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <>
       <Navbar />
+      <Hero />
 
-      <div
-        id="home"
-        className="h-screen flex justify-center items-center text-5xl font-bold"
-      >
-        Home Section
-      </div>
-
-      <div
+      <section
         id="about"
-        className="h-screen flex justify-center items-center text-5xl font-bold bg-gray-100"
+        className="min-h-screen flex items-center justify-center bg-gray-100"
       >
-        About Section
-      </div>
+        <h1 className="text-5xl font-bold">About Section</h1>
+      </section>
 
-      <div
+      <section
         id="skills"
-        className="h-screen flex justify-center items-center text-5xl font-bold"
+        className="min-h-screen flex items-center justify-center"
       >
-        Skills Section
-      </div>
+        <h1 className="text-5xl font-bold">Skills Section</h1>
+      </section>
 
-      <div
+      <section
         id="projects"
-        className="h-screen flex justify-center items-center text-5xl font-bold bg-gray-100"
+        className="min-h-screen flex items-center justify-center bg-gray-100"
       >
-        Projects Section
-      </div>
+        <h1 className="text-5xl font-bold">Projects Section</h1>
+      </section>
 
-      <div
+      <section
         id="contact"
-        className="h-screen flex justify-center items-center text-5xl font-bold"
+        className="min-h-screen flex items-center justify-center"
       >
-        Contact Section
-      </div>
+        <h1 className="text-5xl font-bold">Contact Section</h1>
+      </section>
     </>
   );
 }
