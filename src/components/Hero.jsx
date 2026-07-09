@@ -63,7 +63,7 @@ function Hero() {
           className="flex justify-center"
         >
           <img
-            src="https://i.pravatar.cc/400"
+            src=""
             alt="Profile"
             className="w-80 h-80 rounded-full border-8 border-blue-600 shadow-2xl"
           />
