@@ -1,6 +1,14 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
+import Certificates from "./components/Certificates";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import ScrollTop from "./components/ScrollTop";
 
 function App() {
   return (
@@ -8,27 +16,14 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-
-      <section
-        id="skills"
-        className="min-h-screen flex items-center justify-center"
-      >
-        <h1 className="text-5xl font-bold">Skills Section</h1>
-      </section>
-
-      <section
-        id="projects"
-        className="min-h-screen flex items-center justify-center bg-gray-100"
-      >
-        <h1 className="text-5xl font-bold">Projects Section</h1>
-      </section>
-
-      <section
-        id="contact"
-        className="min-h-screen flex items-center justify-center"
-      >
-        <h1 className="text-5xl font-bold">Contact Section</h1>
-      </section>
+      <Skills />
+      <Projects />
+      <Education />
+      <Experience />
+      <Certificates />
+      <Contact />
+      <Footer />
+      <ScrollTop />
     </>
   );
 }
