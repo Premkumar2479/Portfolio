@@ -16,7 +16,7 @@ function About() {
           viewport={{ once: true }}
         >
           <img
-            src="https://i.pravatar.cc/500"
+            src=""
             alt="About"
             className="rounded-3xl shadow-2xl"
           />
