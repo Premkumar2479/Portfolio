@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { FaGraduationCap, FaLaptopCode, FaProjectDiagram } from "react-icons/fa";
+import profile from "../assets/images/nick.jpg";
+
 
 function About() {
   return (
@@ -35,11 +37,14 @@ function About() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <img
-              src="https://i.pravatar.cc/500"
-              alt="Prem Kumar"
-              className="rounded-3xl shadow-2xl w-full max-w-md mx-auto"
-            />
+                 <img
+                    src={profile}
+                    alt="Prem Kumar"
+                    className="rounded-3xl shadow-xl object-cover"
+                  />
+
+
+
           </motion.div>
 
           {/* Right Content */}
