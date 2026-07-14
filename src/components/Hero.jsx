@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import profile from "../assets/images/nick.jpg";
-import profile from "../assets/resume/prem.kr.pdf"
+import resume from "../assets/resume/resume.pdf";
+
 
 import {
   FaGithub,
@@ -49,13 +50,12 @@ function Hero() {
           <div className="flex flex-wrap gap-4 mt-10">
 
             <a
-              href="/resume.pdf"
-              download
-              className="bg-blue-600 hover:bg-blue-700 text-white px-7 py-3 rounded-xl flex items-center gap-2 transition"
-            >
-              <FaDownload />
-              Resume
-            </a>
+                href={resume}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
 
             <a
               href="#contact"
