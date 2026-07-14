@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import profile from "../assets/images/nick.jpg";
+import profile from "../assets/resume/prem.kr.pdf"
 
 import {
   FaGithub,
