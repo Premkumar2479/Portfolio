@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { FaGraduationCap, FaLaptopCode, FaProjectDiagram } from "react-icons/fa";
 import profile from "../assets/images/nick.jpg";
+import resume from "../assets/resume/resume.pdf";
+
 
 
 function About() {
@@ -90,7 +92,9 @@ function About() {
             </div>
 
             <a
-              href="/resume.pdf"
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block mt-10 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition"
             >
               Download Resume
