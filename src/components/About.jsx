@@ -97,7 +97,7 @@ function About() {
               rel="noopener noreferrer"
               className="inline-block mt-10 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition"
             >
-              Download Resume
+              Resume
             </a>
 
           </motion.div>
