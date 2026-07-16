@@ -25,16 +25,16 @@ const education = [
     college: "Bihar School Examination Board",
     location: "Bihar",
     year: "2019 - 2021",
-    cgpa: "",
+    Percentage: "75%",
     description:
       "Completed Physics, Chemistry and Mathematics.",
   },
   {
     degree: "Matriculation",
-    college: "Bihar School Examination Board",
+    college: "Central Board of Secondary Education (CBSE)",
     location: "Bihar",
     year: "2019",
-    cgpa: "",
+    Percentage: "58%",
     description:
       "Completed secondary education with strong interest in computers.",
   },
