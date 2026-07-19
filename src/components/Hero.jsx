@@ -89,7 +89,7 @@ function Hero() {
             </a>
 
             <a
-              href="mailto:prem@example.com"
+              href="mailto:pk2335301@gmail.com"
               className="hover:text-blue-600 transition"
             >
               <FaEnvelope />
