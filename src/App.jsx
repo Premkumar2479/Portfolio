@@ -9,6 +9,7 @@ import Certificates from "./components/Certificates";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollTop from "./components/ScrollTop";
+//import Certificates from "./components/Certificates";
 
 function App() {
   return (

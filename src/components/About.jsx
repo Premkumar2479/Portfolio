@@ -84,7 +84,7 @@ function About() {
               </div>
 
               <div>
-                <p><strong>Email :</strong> yourmail@gmail.com</p>
+                <p><strong>Email :</strong> pk2335301@gmail.com</p>
                 <p><strong>Location :</strong> Patna, Bihar</p>
                 <p><strong>Status :</strong> Open to Work</p>
               </div>
