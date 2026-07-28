@@ -87,6 +87,8 @@ function About() {
                 <p><strong>Email :</strong> pk2335301@gmail.com</p>
                 <p><strong>Location :</strong> Patna, Bihar</p>
                 <p><strong>Status :</strong> Open to Work</p>
+                <p><strong>Nationality :</strong> Indian</p>
+
               </div>
 
             </div>
