@@ -78,7 +78,7 @@ function About() {
             <div className="grid grid-cols-2 gap-5 mt-10">
 
               <div>
-                <p><strong>Name :</strong> Prem Kumar</p>
+                <p><strong>Name :</strong> Prem Kumar singh</p>
                 <p><strong>Degree :</strong> MCA</p>
                 <p><strong>University :</strong> Aryabhatta Knowledge University</p>
               </div>
