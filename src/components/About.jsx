@@ -80,7 +80,7 @@ function About() {
               <div>
                 <p><strong>Name :</strong> Prem Kumar singh</p>
                 <p><strong>Degree :</strong> MCA</p>
-                <p><strong>University :</strong> Aryabhatta Knowledge University</p>
+                <p><strong>University :</strong> Aryabhatta Knowledge University(AKU)</p>
               </div>
 
               <div>
