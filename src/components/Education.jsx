@@ -7,7 +7,7 @@ const education = [
     college: "Aryabhatta Knowledge University",
     location: "Patna, Bihar",
     year: "2024 - 2026",
-    cgpa: "CGPA: 8.29",
+    cgpa: "CGPA: 8.62",
     description:
       "Studying software engineering, data structures, web development, database management, Java, Python, Flutter, React, and data analytics.",
   },
@@ -29,15 +29,15 @@ const education = [
     description:
       "Completed Physics, Chemistry and Mathematics.",
   },
-  {
-    degree: "Matriculation",
-    college: "Central Board of Secondary Education (CBSE)",
-    location: "Bihar",
-    year: "2019",
-    Percentage: "58%",
-    description:
-      "Completed secondary education with strong interest in computers.",
-  },
+  // {
+  //   degree: "Matriculation",
+  //   college: "Central Board of Secondary Education (CBSE)",
+  //   location: "Bihar",
+  //   year: "2019",
+  //   Percentage: "58%",
+  //   description:
+  //     "Completed secondary education with strong interest in computers.",
+  // },
 ];
 
 function Education() {
